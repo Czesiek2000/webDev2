@@ -1,0 +1,315 @@
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+nav li{
+  text-transform: uppercase;
+}
+nav a{
+  color: #000 !important;
+}
+
+.home{
+  background-image: url(img/Bialy.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+.text{
+  position: relative;
+  top: 50%;
+  left: 10%;
+  height: 1000px;
+  margin-top: -14px;
+}
+.text-content{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+}
+.btn-orange{
+  background-color: #ff6033;
+  border-style: none;
+  position: absolute;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  text-transform: uppercase;
+
+}
+
+.scroll {
+  cursor: pointer;
+  background-image: url(./img/scroll.png);
+  /* background-color: #000; */
+  z-index: 100;
+  position: absolute;
+  width: 24px;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin-left: 40%;
+  bottom: -100px;
+}
+.about-us {
+  background-color: #00c4c4;
+  position: relative;
+}
+.about-us-text{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  
+}
+.about-us-text p {
+   opacity: 0.6;
+   margin-left: 80px;
+
+}
+
+.about-us-text h2 {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+}
+
+/* Service section */
+
+.service{
+  background-color: #70bfff;
+  width: 100%;
+}
+.service-container img{
+  padding-left: 250px;
+
+}
+.service-items{
+  padding-top: 100px;
+}
+.service-items li{
+  list-style-type: none;
+  background-color: #fff;
+  border: 1px solid #f4f4;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.service-items img{
+  padding-left: 10px;
+
+}
+.service-header {
+  color: #fff;
+  position: relative;
+  top: 180px;
+  left: 410px;
+  z-index: 1;
+  font-size: 70px;
+
+}
+.service-brand h1{
+  width: 100%;
+}
+.pomidory{
+  position: relative;
+}
+.gallery-container{
+  width: 100%;
+  background-color: yellow;
+}
+.gallery-container h2{
+  font-size: 72px;
+  font-weight: bold;
+}
+.gallery-container img {
+  margin: 10px;
+}
+
+.gallery-container img:first-child{
+  width: 80%;
+  margin-bottom: 10px;
+}
+.galley-container img:last-child{
+  width: 70%;
+  height: 70%;
+}
+.gallery-container img:nth-child(4){
+  width: 50%;
+  padding-right: -10px;
+}
+.gallery-btn{
+  background-color: #5f869e;
+  border:0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.gallery-btn:hover{
+  background-color: #fff;
+  color: #5f869e;
+}
+.subscribe-input{
+  width: 320px;
+  margin-right: 20px;
+}
+
+.subscribe-btn{
+  background-color: #96b92c;
+  color: #fff;
+  border:none;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 300px;
+}
+.subscribe-container{
+  background-image: url(./img/subscribe-img.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 500px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.blog{
+  background-color: #b07cf7;
+
+}
+.blog-container{
+  color: #fff;
+  padding-bottom: 20px;
+}
+.blog-container img{
+  padding-left: 15px;
+}
+.blog-btn{
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #fc4958;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  width: 120px;
+}
+
+/* .blog-img:first-child{
+  margin-left: 0;
+  margin-right: 10px;
+} */
+.contact{
+  background-image: url(./img/contact-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input.form-control, input#inputPassword, textarea.form-control {
+  background-color: #00c4c4;
+  background: rgba(0, 196, 196, 0.5);
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  /* height: 0px; */
+  width: 300px;
+}
+
+.contact_btn {
+  background: rgba(0, 196, 196, 0.5);
+  border-radius: 0;
+  color: #fff;
+  height: 50px;
+  width: 300px;
+  border: none;
+
+}
+
+.side-contact {
+  text-align: left;
+}
+
+.love {
+  color: red;
+  font-weight: 700;
+}
+
+.footer-logo{
+    font-family: "Pacifico", cursive;
+    font-size: 1.5rem;
+    color: #B9B9B9;
+    display: block
+}
+
+.footer {
+    background-color: #262626;
+    text-align: center;
+    height: 90px;
+    color: #B9B9B9;
+}
+@media screen and (max-width: 1200px){
+  img.pomidory{
+    padding: 0;
+    margin: 0 40px;
+    position: relative;
+  }
+  
+  h1.service-header {
+    margin-left: 0;
+    margin-right: 50px;
+    margin: 0 auto;
+  }
+
+  .about-us img, .about-img-container{
+    display: none;
+  }
+
+  .about-us-text {
+    text-align: center;
+    margin-left: 40px;
+    margin: 0 auto;
+  }
+  
+}
+
+@media (max-width: 868px){
+  body {
+    overflow-x: hidden;
+  }
+  .about-us-text {
+    text-align: center;
+    margin: 0 auto;
+    /* margin-left: 0; */
+  }
+  .about-us img, .about-img-container{
+    display: none;
+  }
+  .about-us p {
+    margin-left: 0;
+  }
+  .about-us {
+    display: block;
+  }
+
+  .pomidory {
+    height: 70%;
+    width: 70%;
+  }
+
+  .service-header {
+    margin-left: 0;
+    margin-right: 40px;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .service-header {
+    display: none;
+  }
+
+  .service-container img {
+    margin-left: 20px;
+  }
+}
